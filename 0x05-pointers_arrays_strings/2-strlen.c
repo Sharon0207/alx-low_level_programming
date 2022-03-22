@@ -5,7 +5,6 @@
  * @s: pointer to an string
  * Return: int
  */
-
 int _strlen(char *s)
 {
 	int i = 0;
