@@ -4,9 +4,11 @@
  * @s: string
  * Return: encoded string `s`
  */
+
 char *leet(char *s)
 {
 	int i;
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		while (s[i] == 'a' || s[i] == 'A')
@@ -20,5 +22,6 @@ char *leet(char *s)
 		while (s[i] == 'l' || s[i] == 'L')
 			s[i] = '1';
 	}
+
 	return (s);
 }
